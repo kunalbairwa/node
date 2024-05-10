@@ -1,352 +1,549 @@
 *{
     margin: 0;
     padding: 0;
- /* scroll-behavior: smooth; */
- font-family: sans-serif;
 }
 
 
-
-    
-
-body{
-    background-image:linear-gradient(rgb( 0,0,0,0.5),rgba(0,0,0,0.5)),url(https://assets.nflxext.com/ffe/siteui/vlv3/c7f07b68-7989-4ff7-a31e-11c17dcc2fea/fcf685b8-3f9f-42d8-9af3-4bb86fa5a3b8/IN-en-20240422-popsignuptwoweeks-perspective_alpha_website_large.jpg) ;
-    /* height: 100%; */
-    background-repeat: no-repeat;
-    background-size: 150% 100%;
-    /* width: 100%; */
-    
-}
-
-
-
-
-@media only screen and (min-width: 500px) {
-
-    .main{
-        top: 75%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 33%;
-        position: absolute;
-        align-self: center;
-        height: 950px;
-        background-color: rgb(0,0,0,0.7);
-        border-radius: 0.4rem;
-    
-      
+@media only screen and (max-width: 500px)  {
+ 
+    /* *{  overflow-x: hidden;
     }
-    
-}
 
-
-
-@media only screen and (max-width: 414px ) {
+     */
 
     body{
-        background-image: none;
-        position: absolute;
-        background-color: black;
+        background-color: #2f2f2f;
+      
+        
     }
 
-    .nav-container{
-        max-width: 100px;
-        margin: 0;
-
+    svg{
+        width: 200px;
+        /* height: 40px; */
+        
     }
 
-    .container{
+    .nav-logo{
+        padding: 50px;
+        fill: rgb(229, 9, 20);
+
+        
+    }   
+
+    nav{
+        margin: auto;
+        width: 100%;    
+        justify-content: space-between;
+        display: flex;
+        /* margin-top: 10px; */
+        background-color:transparent;
+        height: 150px;
+    
+    }
+    select{
+    
+        height: 60px;
+        width: 120px;
+        font-size: 22px;    
+        color: white;
+        border-radius: 0.5rem;
+        background-color: rgba(0, 0, 0, 0.425)
+        
+    }
+    
+    .Sign{
+        margin-left: 10px;
+        border:none;
+        font-size: 18px; 
+        background-color: rgb(229, 9, 20);
+        color: white;
+        height: 60px;
+        width: 135px;
+        margin-top: 40px;
+        border-radius: 0.3rem;
+    
+    }
+    .nav-link{
+      
+        padding: 20px;
+      
+    }
+    section{
+        margin-top: 200px;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center;
+      
+    }
+    .showcase h1 {
+
+        line-height: 6rem;
+    /* 
+        line-height: 4em; */
+    }
+    
+    .showcase p{
+        line-height: 4rem;
+    }
+    
+    h1{
+        font-size: 60px;
+        color: white;
+        font-weight: bold;
+        /* line-height: 2em; */
+    }
+    p{
+        font-size: 25px;
+        color: white;
+    }
+
+    .email{
+        margin-top: 20px;
+        margin-left: 120px;
+        display: grid;
+      
+    
+    }
+    input{
+        border-radius: 0.5rem;
+       
+        width: 600px;
+        height: 100px;
+        font-size: 22px;
+        border: solid  0.5px rgb(72, 72, 72);
+        background-color: transparent;
+        background-color: rgba(0, 0, 0, 0.371);
+        color: aliceblue;
+       
+    }
+    .start{
+        margin-left: 180px;
+        margin-top: 20px;
+        width: 250px;
+        height: 70px;
+        font-size: 34px;
+        border-radius: 0.3rem;
+        /* font-weight: bold; */
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        background-color: rgb(229, 9, 20);
+        border: none;
+    
+    }
+    input[type=email] {
+        /* color: #b2b2b2; */
+        font-size: 25px;
+        text-indent: 10px;}
+
+        .container2{
+
+            background-color: black;
+            margin-top: -180px;
+            width: 200%;
+            height: 900px;
+            /* flex-direct; */
+        
+        }
+        .vid1{
+
+            order: 1;
+            align-self: center;
+            margin-left: 150px;
+            position: relative;
+        }
+        
+        .vid2{
+
+            order: 1;
+            align-self: center;
+            margin-left: -150px;
+            position:absolute;
+            right: 176px;
+            top: 1120px;
+            overflow: clip;
+            
+        }
+        .text1{
+            position:;
+            align-self:;
+            font-size: 440px;
+        
+        }
+        
+    
+    
+    
+    
+
+    .container1{
+        background-image:  linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)), url(https://assets.nflxext.com/ffe/siteui/vlv3/c7f07b68-7989-4ff7-a31e-11c17dcc2fea/fcf685b8-3f9f-42d8-9af3-4bb86fa5a3b8/IN-en-20240422-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+        background-size:150% 150%;
+        width: 200%;
+        height: 970px;  
+        /* text-align: center;    */
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 500px)  {
      
-        position: relative;
-        max-width: 100%;
-    }
+body{
 
-
-
-    .all-items{
-        width: 450px;
-        max-width: 499px;
-        position: relative;
-    }
-
-   
-
-
-}
-
-
-.learn-more {
-
-    font-size: 18px;
-    color: #999;
-    margin: 30px auto;
-    margin-left: 100px;
-    
-    font-family: sans-serif;
+    background-color: #2f2f2f;
     
 }
 
-
-.learn-more-a{
-    color: rgb(0, 64, 255);
-    text-decoration: none;
-}
-
-    
-
-
-
-
+/* logo */
 svg{
+    width: 190px;
+    /* height: 40px; */
     
+}
+
+.nav-logo{
+    padding: 30px;
     fill: rgb(229, 9, 20);
     
-
 }
 
-.nav-container{ 
-    width: 190px;
-    height: 190px;
-    top:30%;
-    left: 7%;
-    position: relative;
-
+.nav-link{
+      
+    padding: 20px;
+  
 }
 
-nav{
-   width: 100%;
-   height: 100px;
-   background-color:transparent;
-   /* background-color: black; */
-   margin: auto;
-   position: relative;
+
+h1,h2,p{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+/* language selecter / sign in */
+select{
     
-}
-
-
-
-.container{
-    background-color:transparent;
-  width: 90%;
-  margin: auto;
-  height: 900px;
-    position: relative;
-}
-
-
-
-
-
-.all-items{
-
-    display: grid;
-    margin: 50px auto;
-
-
+    height: 40px;
+    width: 140px;
+    font-size: 22px;    
+    color: white;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.425)
+    
 }
 
 .Sign{
-
-    font-size: 45px;
-    font-family: sans-serif;
-    margin-left: 70px ;
+    margin-left: 20px;
+    border:none;
+    font-size: 18px; 
+    background-color: rgb(229, 9, 20);
     color: white;
-    padding: 20px;
+    height: 40px;
+    width: 95px;
+    border-radius: 0.3rem;
 
 }
 
-.empass{
+/* navgation bar */
+nav{
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    /* margin-top: 10px; */
+    background-color:transparent;
+    height: 150px;
 
-        width: 70%;
-        height: 75px;
-        border-radius: 0.5rem;
-        border: solid 2px rgb(44, 44, 44) ;
-        background-color: rgba(25, 24, 24, 0.747);
-        border-color: #2c2c2c;
-        margin: 10px auto;
-        position: relative;
-        color: white;
+}
 
+
+/* main containet */
+section{
+    margin-top: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.showcase h1 {
+
+    line-height: 6rem;
+/* 
+    line-height: 4em; */
+}
+
+.showcase p{
+    line-height: 4rem;
+}
+
+
+
+
+.text3 h1{
+    line-height: 5rem;
+}
+
+.text4 h1{
+    line-height: 5rem;
+}
+
+
+.email{
+    margin-top: 20px;
+    margin-left: 400px;
+    display: flex;
+  
+
+}
+
+.start{
+    margin-left: 10px;
+    width: 250px;
+    height: 70px;
+    font-size: 34px;
+    border-radius: 0.3rem;
+    /* font-weight: bold; */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(229, 9, 20);
+    border: none;
+
+}
+
+input{
+    border-radius: 0.5rem;
+   
+    width: 500px;
+    height: 70px;
+    font-size: 22px;
+    border: solid  0.5px rgb(72, 72, 72);
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.371);
+    color: aliceblue;
+   
 }
 
 input[type=email] {
     /* color: #b2b2b2; */
     font-size: 22px;
-    text-indent: 10px;
+    text-indent: 10px;}
 
-
-}
-
-input[type=password] {
-    /* color: #b2b2b2; */
-    font-size: 22px;
-    text-indent: 10px;
-    caret-color: white;
-   
-    
-}
-
-
-
-
-.Sign-in-button{
-    margin: 10px auto;
-    height: 55px;
-    border-radius: 0.5rem;
-    border: none;
-    width: 70%;
-    font-size: 22px;
+h1{
+    font-size: 60px;
+    color: white;
     font-weight: bold;
+    /* line-height: 2em; */
+}
+p{
+    font-size: 25px;
     color: white;
-    background-color: rgb(229,9,20);
-    font-family: sans-serif;
 }
 
 
-h2{
-    font-size: 22px;
-    color: white;
-    text-align: center;
-    margin: 10px auto;
-     font-family: sans-serif;
+.main{
+
+    width: 80%;
+    height: 850px;
+    margin: auto;
+    background-color: transparent;
 }
 
 
-.code{
-    margin: 10px auto;
-    height: 55px;
-    border-radius: 0.5rem;
-    border: none;
-    width: 70%;
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    background-color: rgba(82, 82, 82, 0.753);
-    font-family: sans-serif;
-}
 
 
-.forgot-password{
-    font-size: 22px;
-    font-family: sans-serif;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
-
- .rm p{
-    font-size: 22px;
-    color: white;
-
-    margin-top: 50px;
-    margin-left: 100px;
-    font-family: sans-serif;
-}
-
-.box{
-    width: 20px;
-    height: 20px;
-}
-
-.sign-up p{
-
-    font-size: 22px;
-    color: rgb(165, 165, 165);
-    font-family: sans-serif;
-    margin-left: 100px;
-    margin-top: -20px;
-
-
-}
-
-.sign-up a{
-
-        color:white;
-        text-decoration: none;
-
-}
-
- 
-
-
-
-
-
-/* footer */
-
-footer{
-    
+.container1{
+    background-image:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/c7f07b68-7989-4ff7-a31e-11c17dcc2fea/fcf685b8-3f9f-42d8-9af3-4bb86fa5a3b8/IN-en-20240422-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size:150% 150%;
     width: 100%;
-    height: 400px;
-    margin-top: 350px;
-    background-color: rgba(0, 0, 0, 0.662);
+    height: 970px;  
+    text-align: center;
+
+}
+
+.showcase1{
+    display: flex;
+    
+}
+.showcase2{
+    display: flex;
+    
+}
+
+
+.vid1{
+    order: 2;
+    align-self: center;
+    margin-left: 150px;
+    position: relative;
+}
+
+.vid2{
+    order: 2;
+    align-self: center;
+    margin-left: -150px;
+    position:absolute;
+    right: 176px;
+    top: 1120px;
+    overflow: clip;
+}
+
+
+.vid3{
+    order: 2;
+    align-self: center;
+    margin-left: -150px;
+    position:absolute;
+    right: 270px;
+    top: 2590px;
+    overflow: clip;
+}
+.size{
+    width: 500px;
+    height: 90px;
+}
+
+
+.text1{
+    margin: 200px 200px;
+    align-self: center;
+}
+
+.text1 p{
+    line-height: 3rem;
+    font-size: 35px;
+    
+}
+
+.container2{
+
+    background-color: black;
+    margin-top: -190px;
+    width: 100%;
+    height: 700px;
+
+}
+
+.secimg{
+    order: ;
+    align-self: center;
+    margin-left: 100px;
+    position: relative;
+}
+.text3{
+    margin: 100px;
+    align-self: center;
+    line-height: 2rem;
+}
+
+.text3 p{
+    line-height: 3rem;
+    font-size: 35px;
+    
+}
+
+
+
+
+.thirdimg{
+    order: 2 ;
+    align-self: center;
+    margin-left: 150px;
+    margin: 100px;
     position: relative;
 
 }
 
-
-.radhe-radhe{
-position:absolute;
-    top: 10%;
-    left: 10%;
-}   
-
-.radhe-radhe p{
-    font-size: 20px;
-    color: #999;
+.text4{
+    margin: 100px;
+    align-self: center;
 }
 
-
-
-.pele {
-    margin-bottom: 20px;
-}
-
-.pele a{
-    text-decoration: underline;
-   
-
-}
-
-
-.radhe-radhe a{
-    font-size: 18px;
-    text-decoration:underline;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-right: 300px;
-    color: #999;
-
-
-}
-
-
-.radhe-radhe2 {
-    margin-left: 210px;
-position: relative;
-    top: 40%;
-    /* left: 10%; */
-
-
-}
-
-.radhe-radhe2 a{
-    text-decoration:underline;
-    font-size: 18px;
-    margin-right: 175px;
-    color: #999;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.nav-link{
-
-    position:relative;
-    top: 50%;
-    margin-left: 190px;
-    /* left: 10%; */
+.text4 p{
+    line-height: 3rem;
+    font-size: 35px;
     
+}
+  
+.container3{
+
+    background-color: black;
+    margin-top: -190px;
+    width: 100%;
+    height: 740px;
 
 }
+  
+.container4{
+
+    background-color: black;
+    margin-top: -190px;
+    width: 100%;
+    height: 740px;
+
+}
+
+.container5{
+
+    background-color: black;
+    margin-top: -190px;
+    justify-content: center;
+    width: 100%;
+    height: 785px;
+
+
+}
+
+
+.fourthimg{
+    order:  ;
+    align-self: center;
+    margin-left: 150px;
+    margin: 100px;
+    position: relative;
+
+}
+
+.text5{
+    margin: 100px;
+    align-self: center;
+    /* margin-left: 50px; */
+}
+
+.text5 p{
+    line-height: 3rem;
+    font-size: 35px;
+}
+
+.container6{
+
+    background-color: black;
+    margin-top: 10px;
+    width: 100%;
+    height: 1240px;
+    position:absolute;
+
+}
+
+.container6 select{
+
+    width: 1600px;
+    font-size: 28px;
+    margin-top: 40px;
+   margin-left: 11%;
+    height: 130px;
+    border-radius: 0%;
+    background-color: #333  ;
+
+}
+
+.text6{
+    text-align: center;
+    padding: 40px;
+    font-size:50px;
+    color: white;
+
+}
+
+
+
 
 select{
 
@@ -354,7 +551,6 @@ select{
     height:40px;border-radius: 0.3rem;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 20px;
     color: white;
     background-color: #2c2c2c65;
    
@@ -362,4 +558,214 @@ select{
 }
 
 
-/*  */
+/* hidden conteant */
+
+
+.one {
+    width: 1600px;
+    height: 110px;
+    background-color: #252525; 
+        top: 50px;
+    margin: auto;
+
+
+}
+
+.two {
+    width: 1600px;
+    height: 110px;
+    background-color: #252525;  
+      margin:15px auto;
+
+}
+.three {
+    width: 1600px;
+    height: 110px;
+    background-color: #252525;  
+            margin:15px auto;
+
+}
+.four {
+    width: 1600px;
+    height: 110px;
+    background-color: #252525;  
+            margin:15px auto;
+
+}
+
+.five {
+    width: 1600px;
+    height: 110px;
+    background-color: #252525;  
+            margin:15px auto;
+
+}
+
+.six {
+    width: 1600px;
+    height: 110px;
+    background-color: #252525;  
+     margin:15px auto;
+
+}
+
+.email2{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+
+.email2 input{
+
+  margin-top:30px;
+}
+
+
+
+ .one  p{
+    color: white;
+        font-size: 38px;
+        font-family: sans-serif;
+        padding:30px;
+         
+    }
+
+.two  p{
+        color: white;
+            font-size: 38px;
+            font-family: sans-serif;
+            padding:30px;
+             
+        } 
+        
+.three  p{
+            color: white;
+                font-size: 38px;
+                font-family: sans-serif;
+                padding:30px;
+                 
+            }
+            
+.four p{
+                 color: white;
+                    font-size: 38px;
+                    font-family: sans-serif;
+                    padding:30px;
+                     
+                }                                               
+.five  p{
+
+
+  
+    color: white;
+    font-size: 38px;
+    font-family: sans-serif;
+    padding:30px;
+     
+}
+
+.six p{
+    color: white;
+        font-size: 38px;
+        font-family: sans-serif;
+        padding:30px;
+         
+    }
+    
+
+
+    footer{
+
+        width: 100%;
+        height: 800px;
+        margin-top: 10px;
+        background-color: rgb(0, 0, 0);
+        bottom: 0;
+        
+        
+    
+    }  
+
+
+    .footer2{
+        margin-top: 460px;
+        height: 500px;
+        width: 100%;
+        background-color: black;
+        position: relative;
+    }
+
+  
+
+    /* css footer */
+
+
+    .lower1{
+        
+            margin-left: 220px;  
+            font-family: sans-serif;    
+           
+    }
+
+    .lower1 a{
+        
+    
+        color: #999;
+}
+
+
+
+
+
+    .lower1 p {
+            
+        color: #999;
+
+        padding-top: 50px;
+        font-size: 19px;
+        
+
+    }
+
+    .lower{
+        display: flex;
+        font-family: sans-serif;
+        
+    }
+    
+
+    .lower a{
+        
+        color: #999;
+    
+    }
+    
+    ul{
+        list-style-type:none;
+        font-size: 19px;
+        margin: 20px;
+        margin-left: 200px;
+        
+    
+    }
+    
+    
+    li{
+        margin: 20px;
+      
+    }
+        
+
+      
+   
+        .nav-link{
+        
+            position:relative;
+            margin-left: 190px;
+            /* left: 10%; */
+            
+        
+        }
+
+    }
